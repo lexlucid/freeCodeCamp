@@ -153,7 +153,11 @@ Which selector is correct to target `h1` elements inside of a `div`?
 
 #### --distractors--
 
-`div + h1 {}`
+`div h1 {}`
+
+---
+
+`div, h1 {}`
 
 ---
 
@@ -161,7 +165,7 @@ Which selector is correct to target `h1` elements inside of a `div`?
 
 ---
 
-`div > h1 {}`
+`div + h1 {}`
 
 #### --answer--
 
